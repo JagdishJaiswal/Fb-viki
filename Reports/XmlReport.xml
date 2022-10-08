@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="18.577">
+    <testcase classname="SOCIAL WEBSITE" name="Login page" time="6.921">
+        <system-out><![CDATA[Given user Launch The Url...................................................passed
+When get The Text From HomePage.............................................passed
+And user Enter The Username.................................................passed
+And enter The Password......................................................passed
+And click The Login button..................................................passed
+Then validate With Screenshot and Back To Home Page.........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="SOCIAL WEBSITE" name="SignUp Page" time="11.453">
+        <system-out><![CDATA[When user Click The Create Account Button...................................passed
+And enter The Firstname and Lastname........................................passed
+And enter The Mobile Number and Type Password...............................passed
+And select The Date Of Birth and Gender.....................................passed
+Then click Submit and TakeScreenShot........................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
